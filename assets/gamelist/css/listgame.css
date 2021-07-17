@@ -1,0 +1,61 @@
+#content4-18 {
+  background-color: #000;
+  background-size: 100%;
+}
+#content4-18 .row-1 {
+  background-color: #faec37;
+  width: 100%;
+  height: 132px;
+  text-align: center;
+}
+#content4-18 .row-1 h3 {
+  margin: 5px auto;
+  font-size: 77pt;
+  font-family: 'American Captain';
+}
+#content4-18 .container {
+  padding-left: 0;
+  padding-right: 0;
+  height: 631px;
+}
+#content4-18 .container img {
+  position: absolute;
+  width: 300px;
+  text-shadow: 1px 0 1px #faec37, 0 1px 1px #faec37, -1px 0 1px #faec37, 0 -1px 1px #faec37;
+}
+#content4-18 .container .pic2 {
+  left: -33%;
+  opacity: 0.26;
+}
+#content4-18 .container .pic3 {
+  right: -33%;
+  bottom: 0px;
+}
+#content4-18 .container .pic1 {
+  opacity: 0.16;
+  top: 276px;
+  left: 30%;
+}
+#content4-18 .container .row-2 .col-sm {
+  margin: 10px 0;
+}
+#content4-18 .container .row-2 p {
+  font-size: 30pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 0 5px #000, 0 1px 5px #000, -1px 0 5px #000, 0 -1px 5px #000;
+}
+@media (max-width: 981px) {
+  .pic3 {
+    display: none;
+  }
+  #content4-18 .container {
+    height: 100%;
+  }
+}
+@media (max-width: 810px) {
+  #content4-18>.row>h3 {
+    font-size: 38pt;
+  }
+}
